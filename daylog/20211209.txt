@@ -1,0 +1,42 @@
+일일 학습 목표
+
+express 에서 페이지 구성 방법 익히기.
+    1. get request
+        나한테 이 페이지를 건네 줘!
+        근데 response가 없으면 받을 게 없는거 같아
+
+        app.get() >>> app.get(path, callback [, callback ...])
+
+        특정한 경로에 get요청이 오면 callback 함수를 실행한다.
+        즉. eventlistner 와 비슷하다.
+
+        다만 콜백 함수에 있는 코드에 따라 브라우저에 표시되는게 달라진다.
+        만약 응답을 하지 않는다면 아무 일도 일어나지 않는다.
+    
+    2. req 및 res 오브젝트
+        The req object represents the HTTP request and has properties for the request query string,
+        parameters, body, HTTP headers, and so on. In this documentation and by convention,
+        the object is always referred to as req (and the HTTP response is res)
+        but its actual name is determined by the parameters to the callback function
+        in which you’re working.
+
+        >>> 대충 req오브젝트는 http 요청이다. 여러 속성을 가지고 있고 여기서는 req라고 부르겠다.
+            우리가 전달하는 정보가 요약되어 있다.
+
+        The res object represents the HTTP response that an Express app sends
+        when it gets an HTTP request.
+        In this documentation and by convention,
+        the object is always referred to as res (and the HTTP request is req)
+        but its actual name is determined by the parameters to the callback function
+        in which you’re working.
+
+        >>> 대충 http 요청을 express(서버)가 받으면 해주는 응답을 말함.
+            우리에게 전달되는 정보가 요약되어 있음.
+
+    2-1. res.end() >>> res.end([data] [, encoding])
+
+        서버 응답 종료 함수. 데이터로 응답해야 하는 경우 res.send() 또는 res.json() 을 사용 할 것.
+    
+    2-2. res.send() >>> res.send([body])
+
+        서버 응답 송신 함수. body는 문자열, 객체, 부울, 배열, 버퍼객체가 올 수 있음.
