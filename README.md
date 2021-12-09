@@ -6,6 +6,23 @@
   글작성, 글수정, 댓글 서비스를 제공합니다.
   
   해당 README는 프로젝트를 진행하며 생기는 일일 목표와 목표 달성량을 기록하는 것에 중점을 두고 있습니다.
-  
+
+## Dependencies
+  nodemon
+  express
+
+## References
+  https://expressjs.com/ko/4x/api.html
+  https://nodejs.org/dist/latest-v16.x/docs/api/
+  nomadcoders.co/wetube
+
 ### 2021/12/09
-    프로젝트 생성
+    일일목표
+      1. 프로젝트 생성
+      2. nodejs 의 express 모듈 설치 및 구동 확인
+    
+
+    달성목표
+      1. 프로젝트 생성 완료
+      2. express 모듈 설치 및 실행 확인
+
