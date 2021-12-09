@@ -18,6 +18,8 @@
 
   https://nomadcoders.co/wetube
 
+## NEWS
+
 ### 2021/12/09
     일일목표
       1. 프로젝트 생성
