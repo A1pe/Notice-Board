@@ -9,6 +9,7 @@
 
 ## Dependencies
   nodemon
+
   express
 
 ## References
@@ -18,14 +19,13 @@
 
   https://nomadcoders.co/wetube
 
-## NEWS
+## News
 
 ### 2021/12/09
     일일목표
       1. 프로젝트 생성
       2. nodejs 의 express 모듈 설치 및 구동 확인
     
-
     달성목표
       1. 프로젝트 생성 완료
       2. express 모듈 설치 및 실행 확인
