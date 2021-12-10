@@ -12,6 +12,10 @@
 
   express
 
+  Morgan
+
+  babel/core , babel/preset-env, babel-node
+
 ## References
   https://expressjs.com/ko/4x/api.html
 
@@ -33,3 +37,12 @@
       2. express 모듈 설치 및 실행 확인
       3. 3,4 번 복습 완료
 
+### 2021/12/10
+    일일목표
+      1. Middlewares 사용하기
+      2. app.use 활용
+      3. Morgan 설치
+      4. Babel 설치
+
+    달성목표
+      1,2,3,4 적용.
