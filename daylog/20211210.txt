@@ -1,0 +1,23 @@
+일일 학습 목표
+
+MiddleWare 학습
+    1. middleware 란?
+        서버에는 MiddleWare 라는 개념이 있다.
+        중간에 거쳐가는 것 이라고 보면 될 것 같다.
+        최종 목적지(화면구성)로 가기 전, 처리해야 할 것들(보안 및 데이터 검사)을
+        하는 곳이라고 보면 될 것 같다.
+
+    2. app.use() >>> app.use([path,] callback [, callback...])
+        Mounts the specified middleware function or functions at the specified path:
+        the middleware function is executed when the base of the requested path matches path.
+
+        >>> 언제 어느 때든지 발동하는 전역 미들웨어를 만들어 줌.
+
+        단 코드의 순서에 따라 발동되지 않을 수 있음.
+        해당 함수는 코드의 재사용성을 높일 수 있음.
+
+        즉 해당 메서드를 미들웨어와 조합하면 여러가지 논리적 구조를 만들 수 있음.
+
+    3. morgan
+        해당 모듈은 app.method, app.url, 응답코드 로딩시간 등을 표시해주는 편한 모듈이다.
+        옵션에 따라 표시되는 내용이 다르다.
