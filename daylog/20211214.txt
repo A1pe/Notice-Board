@@ -1,0 +1,14 @@
+/
+/reg
+/list
+/view
+
+/user/join
+/user/login
+
+/view/edit
+/view/delete
+
+/view/comment
+/view/comment/delete
+
