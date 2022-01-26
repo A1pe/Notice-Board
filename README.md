@@ -16,6 +16,8 @@
 
   babel/core , babel/preset-env, babel-node
 
+  Pug
+
 ## References
   https://expressjs.com/ko/4x/api.html
 
