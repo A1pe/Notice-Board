@@ -18,6 +18,8 @@
 
   Pug
 
+  MVP.CSS
+
 ## References
   https://expressjs.com/ko/4x/api.html
 
@@ -69,3 +71,12 @@
     일일목표
       1. 컨트롤러를 통해 html 을 전송하는 것을 이해하기
       2. pug 설치 및 view engine 셋팅
+
+### 2022/01/28
+    일일목표
+      1. pug 숙달 및 기본 페이지 작성
+
+### 2022/02/09
+    일일목표
+      1. url 맵핑 수정
+      2. url에 맞는 view 작성

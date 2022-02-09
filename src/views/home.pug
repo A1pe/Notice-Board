@@ -1,7 +1,11 @@
 extends base.pug
-
-block head
-    title Home
+include mixins/Daynotice
 
 block content
-    h1 My notice home
+    h2 Welcome here you will see the day of notice
+    each info in notices
+       +Daynotice(info)
+    else
+        div Sorry nothing found.
+    
+    a(href="list") Go to the List

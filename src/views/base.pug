@@ -1,7 +1,11 @@
 doctype html
 html(lang="ko")
     head
-        block head
-    body 
+        title #{pageTitle} | Notice
+        link(rel="stylesheet" href="https://unpkg.com/mvp.css")
+    body
+        header
+            h1=pageTitle
+    main 
         block content
     include partials/footer.pug

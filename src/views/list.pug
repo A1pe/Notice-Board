@@ -1,0 +1,15 @@
+extends base.pug
+include mixins/notice
+
+block content
+    h2 Welcome here you will see the notice
+        each info in notices
+            +notice(info)
+        else
+            div Sorry nothing found.
+    nav
+        ul 
+            li
+                a(href=`/view/reg`) Reg Notice
+            li
+                a(href="/") Go to Home 

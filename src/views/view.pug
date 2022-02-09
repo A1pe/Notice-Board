@@ -1,7 +1,6 @@
 extends base.pug
 
-block head
-    title View | page
-
 block content
-    h1 My notice view
+    h3 #{notice.views} #{notice.views === 1 ? "view" : "views"}
+    a(href=`${notice.id}/edit`) Edit Notice &rarr;
+    h3 #{notice.rating} rating

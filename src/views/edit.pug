@@ -1,7 +1,7 @@
 extends base.pug
 
-block head
-    title Edit | Notice
-
 block content
-    h1 My notice view Edit
+    h4 Change Title of notice
+    form(method="POST")
+        input(name="title",placeholder="Notice Title", value=notice.title, required)
+        input(value="Save",type="submit")
